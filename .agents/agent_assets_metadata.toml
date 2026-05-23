@@ -1,0 +1,26 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "bfoLPpyxy2qPSLkvQKDWu"
+uri = "file://artifacts/dekorat-almamlakah/public/gallery/living1.png"
+type = "image"
+title = "Luxury Saudi living room"
+
+[[generated]]
+id = "9QfnEjHP9lki12mT2woPM"
+uri = "file://artifacts/dekorat-almamlakah/public/gallery/bed1.png"
+type = "image"
+title = "Modern elegant bedroom"
+
+[[generated]]
+id = "lkHUuG9MI7dyJBXS_XCM9"
+uri = "file://artifacts/dekorat-almamlakah/public/gallery/dining.png"
+type = "image"
+title = "Luxury dining area"
+
+[[generated]]
+id = "2IGK1WhkJWvnEE8Z7ep9G"
+uri = "file://artifacts/dekorat-almamlakah/public/gallery/majlis.png"
+type = "image"
+title = "Elegant modern Majlis"

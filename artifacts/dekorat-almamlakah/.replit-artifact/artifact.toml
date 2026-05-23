@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "ديكورات المملكة"
+version = "1.0.0"
+id = "artifacts/dekorat-almamlakah"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20013
+
+[services.development]
+run = "pnpm --filter @workspace/dekorat-almamlakah run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/dekorat-almamlakah", "run", "build" ]
+publicDir = "artifacts/dekorat-almamlakah/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20013"
+BASE_PATH = "/"
